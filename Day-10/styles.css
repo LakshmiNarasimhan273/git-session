@@ -1,0 +1,41 @@
+/* .container{
+ position: relative;
+ width: 300px;  
+ background-color: lightblue; 
+ padding: 20px;
+}
+
+.image{
+    position: absolute;
+    width: 80px;
+    height: 80%;
+    top: 15px;
+    border-radius: 50%;
+} */
+
+nav{
+    background-color: lightblue;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content{
+    margin-top: 100px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: lightcoral;
+}
+
+nav ul{
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
